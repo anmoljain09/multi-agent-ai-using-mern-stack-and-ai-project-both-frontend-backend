@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+.landing{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f4f7fb;
+}
+
+.landing-box{
+    width:420px;
+    background:#fff;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.landing-box h1{
+    color:#1f2937;
+    margin-bottom:10px;
+}
+
+.landing-box p{
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+.landing-box button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:#fff;
+    cursor:pointer;
+}
+
+.landing-box button:hover{
+    background:#1d4ed8;
+}
